@@ -1,0 +1,45 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+/* Define el fondo blanco para el cuerpo */
+body {
+  background-color: #ffffff;
+}
+
+/* Sobrescribe el color primario y el color de acento para Angular Material */
+.mat-primary .mat-button,
+.mat-primary .mat-icon-button,
+.mat-primary .mat-fab,
+.mat-primary .mat-mini-fab,
+.mat-primary .mat-stroked-button,
+.mat-primary .mat-raised-button {
+  background-color: #f44336; /* Rojo */
+  color: #ffffff; /* Blanco */
+}
+
+.mat-accent .mat-button,
+.mat-accent .mat-icon-button,
+.mat-accent .mat-fab,
+.mat-accent .mat-mini-fab,
+.mat-accent .mat-stroked-button,
+.mat-accent .mat-raised-button {
+  background-color: #f41414; /* Rojo acento */
+  color: #ffffff; /* Blanco */
+}
+
+/* Otras personalizaciones específicas */
+.mat-toolbar {
+  background-color: #f44336; /* Rojo */
+  color: #ffffff; /* Blanco */
+}
+
+.mat-sidenav {
+  background-color: #ffffff; /* Blanco */
+}
+
+.mat-card {
+  background-color: #ffffff; /* Blanco */
+  color: #000000; /* Negro para el texto */
+}
